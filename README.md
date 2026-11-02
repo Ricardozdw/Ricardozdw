@@ -10,7 +10,7 @@
 
 `AI 产品经理` `产品拆解` `RAG / 企业知识库` `Agent Skills` `交互原型` `内容工作流`
 
-[个人网站](https://ricardozdw.github.io/) · [全部仓库](https://github.com/Ricardozdw?tab=repositories) · [项目与作品](#项目与作品) · [技能与实践](#技能与实践) · [文章与报告](#文章与报告)
+[个人网站](https://ricardozdw.github.io/) · [全部仓库](https://github.com/Ricardozdw?tab=repositories) · [项目与作品](#user-content-项目与作品) · [技能与实践](#user-content-技能与实践) · [文章与报告](#user-content-文章与报告)
 
 ## 项目与作品
 
