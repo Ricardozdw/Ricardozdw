@@ -18,14 +18,11 @@
 const ricardozdw = {
   name: "张达玮",
   role: "AI 产品经理",
-  experience: [
-    { company: "阿里巴巴", role: "体验设计师" },
-    { company: "360", role: "UI 设计师" },
-  ],
-  building: ["企业知识库 / RAG", "Agent Skills", "AI 内容工作流"],
-  approach: ["拆解真实产品", "设计人机协作", "用原型验证想法"],
+  focus: ["企业知识库 / RAG", "AI Agent 与 Skills", "模型评测与质量体系"],
+  howIWork: ["从真实场景定义问题", "设计人机协作流程", "用评测驱动迭代"],
+  shipped: ["知汇台", "小红书成稿工坊", "AI 产品拆解 Skill"],
+  background: "阿里巴巴、360 设计背景，让 AI 能力落成好用的产品",
   interests: ["摄影 📷", "篮球 🏀"],
-  website: "https://ricardozdw.github.io/",
 };
 ```
 
