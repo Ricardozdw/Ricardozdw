@@ -1,6 +1,6 @@
 # Hi, I'm [Ricardozdw](https://ricardozdw.github.io/) 👋
 
-**张达玮 · AI 产品经理 · 专注企业知识库、AI Agent 与模型评测**
+**张达玮 · AI 产品经理 · 8 年大厂设计转 AI 产品，爱分享、爱记录**
 
 <p>
   <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/pixel-workspace-daylight-wide.gif" alt="晴朗白天的像素工作室，以米白、浅蓝和青绿色为主；人物敲键盘、端起咖啡喝一口、放下杯子后继续工作，伴随热气和屏幕光点的 12 秒循环动画。" width="100%">
@@ -21,7 +21,7 @@ const ricardozdw = {
   focus: ["企业知识库 / RAG", "AI Agent 与 Skills", "模型评测与质量体系"],
   howIWork: ["从真实场景定义问题", "设计人机协作流程", "用评测驱动迭代"],
   shipped: ["知汇台", "小红书成稿工坊", "AI 产品拆解 Skill"],
-  background: "阿里巴巴、360 设计背景，让 AI 能力落成好用的产品",
+  background: "8 年大厂设计（阿里巴巴、360）转 AI 产品",
   interests: ["摄影 📷", "篮球 🏀"],
 };
 ```
