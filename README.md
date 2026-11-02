@@ -1,16 +1,33 @@
+# Hi, I'm [Ricardozdw](https://ricardozdw.github.io/) 👋
+
+**张达玮 · AI 产品经理 · 曾在阿里巴巴、360 担任体验设计师**
+
 <p>
-  <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/profile-cover.svg" alt="Ricardozdw · 张达玮 · AI 产品经理。从一个好问题，到一个能用的产品。" width="100%">
+  <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/pixel-workspace.gif" alt="暖杏色、陶土橙与鼠尾草绿的像素工作室：屏幕光标闪烁、灯光明暗循环、夕阳水面微光跳动。" width="100%">
 </p>
-
-# 你好，我是张达玮
-
-**AI 产品经理，关注产品拆解、知识库与 Agent 工作流。**
 
 我喜欢从真实的问题出发，把需求、体验与技术连接起来，再用原型和可运行的项目验证想法。
 
 `AI 产品经理` `产品拆解` `RAG / 企业知识库` `Agent Skills` `交互原型` `内容工作流`
 
 [个人网站](https://ricardozdw.github.io/) · [全部仓库](https://github.com/Ricardozdw?tab=repositories) · [项目与作品](#user-content-项目与作品) · [技能与实践](#user-content-技能与实践) · [文章与报告](#user-content-文章与报告)
+
+## ☕ About Me
+
+```javascript
+const ricardozdw = {
+  name: "张达玮",
+  role: "AI 产品经理",
+  experience: [
+    { company: "阿里巴巴", role: "体验设计师" },
+    { company: "360", role: "体验设计师" },
+  ],
+  building: ["企业知识库 / RAG", "Agent Skills", "AI 内容工作流"],
+  approach: ["拆解真实产品", "设计人机协作", "用原型验证想法"],
+  interests: ["摄影 📷", "篮球 🏀"],
+  website: "https://ricardozdw.github.io/",
+};
+```
 
 ## 项目与作品
 
@@ -34,6 +51,10 @@
 | **产品原型与体验** | 多角色工作台、信息架构、人机协作界面、交互与视觉原型。 |
 
 ### 项目实践中的技术
+
+<p>
+  <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/tech-stack.svg" alt="React、TypeScript、JavaScript、Python、FastAPI、PostgreSQL、Docker、Git" width="460">
+</p>
 
 **前端与交互**  
 `React` `TypeScript` `JavaScript` `HTML / CSS` `Ant Design` `Three.js` `GSAP` `Vite`
