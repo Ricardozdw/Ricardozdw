@@ -29,6 +29,18 @@ const ricardozdw = {
 };
 ```
 
+## 🧰 常用工具
+
+<p>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openaigym&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Grok%20Bot-1F1F1F?style=flat-square&logo=x&logoColor=white" alt="Grok Bot">
+  <img src="https://img.shields.io/badge/PI%20Agent-3D3D3D?style=flat-square&logo=pi&logoColor=white" alt="PI Agent">
+  <img src="https://img.shields.io/badge/DeepSeek%20Harness-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek Harness">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
+  <img src="https://img.shields.io/badge/Adobe%20%E5%85%A8%E5%AE%B6%E6%A1%B6-FA0F00?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xNS4xIDJIMjR2MjB6TTguOSAySDB2MjB6TTExLjk1IDkuNEwxNy42IDIyaC0zLjdsLTEuNjktNC40SDguMXoiLz48L3N2Zz4%3D&logoColor=white" alt="Adobe 全家桶">
+</p>
+
 ## ⭐ 精选项目
 
 从产品视角出发、用工程方式落地的产品与工具。
