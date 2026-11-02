@@ -1,6 +1,6 @@
 # Profile artwork
 
-The current profile cover is `pixel-workspace-daylight.gif`: a 12-second, 144-frame loop in a clear sunny daytime studio. The person types, reaches for coffee, lifts and drinks it, puts it down, then resumes typing. There is no looking-out-the-window pose. The palette is ivory, sky blue and teal with subtle yellow accents. Ambient motion includes rising steam, workflow packets on the monitor, drifting window dust, water reflections, and a restrained lamp glow.
+The current profile cover is `pixel-workspace-daylight-wide.gif`, a 1200×460 crop (y offset 60) of `pixel-workspace-daylight.gif`: a 12-second, 144-frame loop in a clear sunny daytime studio. The person types, reaches for coffee, lifts and drinks it, puts it down, then resumes typing. There is no looking-out-the-window pose. The palette is ivory, sky blue and teal with subtle yellow accents. Ambient motion includes rising steam, workflow packets on the monitor, drifting window dust, water reflections, and a restrained lamp glow.
 
 The current base scene and five character keyframes in `daylight/` were edited with the built-in image generation tool; their exact prompts are in [daylight/PROMPTS.md](daylight/PROMPTS.md). `cover-animation.html` composites only a fixed actor area so the room stays stable. It is both the live preview and the deterministic frame renderer.
 
