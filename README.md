@@ -1,6 +1,6 @@
 # Hi, I'm [Ricardozdw](https://ricardozdw.github.io/) 👋
 
-**张达玮 · AI 产品经理 · 曾在阿里巴巴、360 担任体验设计师**
+**张达玮 · AI 产品经理 · 专注企业知识库、AI Agent 与模型评测**
 
 <p>
   <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/pixel-workspace-daylight-wide.gif" alt="晴朗白天的像素工作室，以米白、浅蓝和青绿色为主；人物敲键盘、端起咖啡喝一口、放下杯子后继续工作，伴随热气和屏幕光点的 12 秒循环动画。" width="100%">
