@@ -1,6 +1,14 @@
 # Profile artwork
 
-`pixel-workspace.png` is original artwork generated with the built-in image generation tool. `pixel-workspace.gif` is its animated GitHub profile cover: a six-second seamless loop with a blinking screen cursor, changing bulb brightness, and small sunset reflections. The scene itself stays still. Rebuild with `bash assets/animate-cover.sh` (FFmpeg required).
+`pixel-workspace.png` is original artwork generated with the built-in image generation tool. The current profile cover is `pixel-workspace-motion.gif`: a 12-second, 144-frame loop in which the person types, reaches for coffee, lifts and drinks it, puts it down, and turns to the window. Ambient motion includes rising steam, workflow packets on the monitor, drifting window dust, sunset reflections, and a breathing lamp glow.
+
+The six character keyframes in `poses/` were edited with the built-in image generation tool; their exact prompts are in [poses/PROMPTS.md](poses/PROMPTS.md). `cover-animation.html` composites only a fixed actor area so the room stays stable. It is both the live preview and the deterministic frame renderer.
+
+## Rebuild
+
+From the repository root, start `python3 -m http.server 8767 --bind 127.0.0.1`. Open `http://127.0.0.1:8767/assets/cover-animation.html` to preview. With Ego Lite installed, export frames using `ego-browser nodejs < assets/export-cover.mjs`, then pass its printed temporary directory to `bash assets/animate-cover.sh /absolute/path/to/frame-directory` (FFmpeg required).
+
+`pixel-workspace.gif` is the earlier six-second ambient-only version, retained for comparison. The profile now points to the new filename so browsers can fetch the updated animation immediately.
 
 ## Generation prompt
 
