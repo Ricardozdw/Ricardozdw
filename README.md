@@ -29,15 +29,37 @@ const ricardozdw = {
 };
 ```
 
-## 项目与作品
+## ⭐ 精选项目
 
-| 项目 | 内容与解决的问题 | 项目形态 | 入口 |
-| --- | --- | --- | --- |
-| **[知汇台](https://github.com/Ricardozdw/zhihuitai)** | 企业知识库中台，串联知识导入、引用式问答、可观测与评测回流。 | React / TypeScript / Ant Design；仓库包含 FastAPI 后端。在线页面为 **Mock 前端演示**。 | [在线演示](https://ricardozdw.github.io/zhihuitai/) · [源码](https://github.com/Ricardozdw/zhihuitai) |
-| **[小红书成稿工坊](https://github.com/Ricardozdw/xiaohongshu-content-studio)** | 将链接或材料按「内容整理 → 确认改写 → 图文制作」组织成稿件、图文与发布素材。 | 可安装的 Agent Skill，附五种版式预览与浏览器转写工具。 | [项目介绍](https://ricardozdw.github.io/xiaohongshu-content-studio/) · [版式预览](https://ricardozdw.github.io/xiaohongshu-content-studio/styles.html) · [源码](https://github.com/Ricardozdw/xiaohongshu-content-studio) |
-| **[AI 产品拆解 Skill](https://github.com/Ricardozdw/ai-product-teardown)** | 以「五问五层」梳理用户场景、人机分工、模型、成本与壁垒，形成有证据来源的产品分析。 | Agent Skill；支持飞书文档、Markdown 与 HTML 报告。 | [项目介绍](https://ricardozdw.github.io/ai-product-teardown/) · [通义听悟示例](https://ricardozdw.github.io/ai-product-teardown/examples-tingwu-teardown.html) · [源码](https://github.com/Ricardozdw/ai-product-teardown) |
-| **[Behance Landing / Showcase](https://github.com/Ricardozdw/behance-landing)** | 视觉交互实验：可拖拽的鱼眼网格、水波反馈、项目画廊与沉浸式详情切换。 | React / TypeScript / Three.js / GSAP。 | [在线预览](https://ricardozdw.github.io/behance-landing/) · [源码](https://github.com/Ricardozdw/behance-landing) |
-| **[个人网站](https://github.com/Ricardozdw/ricardozdw.github.io)** | 个人介绍、项目作品与产品思考的展示空间。 | HTML / CSS / JavaScript；GitHub Actions 自动部署到 GitHub Pages。 | [访问网站](https://ricardozdw.github.io/) · [源码](https://github.com/Ricardozdw/ricardozdw.github.io) |
+从产品视角出发、用工程方式落地的产品与工具。
+
+🗂️ **[知汇台](https://github.com/Ricardozdw/zhihuitai)**  
+企业知识库中台，串联知识导入、引用式问答、可观测与评测回流。  
+在线页面为 Mock 前端演示：[在线演示](https://ricardozdw.github.io/zhihuitai/)
+
+📝 **[小红书成稿工坊](https://github.com/Ricardozdw/xiaohongshu-content-studio)**  
+把链接或材料按「内容整理 → 确认改写 → 图文制作」整理成可发布的稿件与图文。  
+附五种版式预览：[项目介绍](https://ricardozdw.github.io/xiaohongshu-content-studio/)
+
+🔍 **[AI 产品拆解 Skill](https://github.com/Ricardozdw/ai-product-teardown)**  
+以「五问五层」梳理用户场景、人机分工、模型、成本与壁垒。  
+输出有证据来源的分析报告：[项目介绍](https://ricardozdw.github.io/ai-product-teardown/)
+
+🎨 **[Behance Landing / Showcase](https://github.com/Ricardozdw/behance-landing)**  
+视觉交互实验：可拖拽的鱼眼网格、水波反馈与沉浸式项目画廊。  
+[在线预览](https://ricardozdw.github.io/behance-landing/)
+
+---
+
+## ✍️ 写作
+
+我从产品与工程的视角写 AI 产品。
+
+- [别再靠“感觉”测 AI 了：像美团一样，给你的 Agent 建一套“错题本”](https://mp.weixin.qq.com/s/X_QrGJyYmMp7oTheN4Dj1g)
+- [从追赶到破局：Kimi 3T 开源权重，把闭源的高价神话拉下了神坛](https://mp.weixin.qq.com/s/ykyH_FWAUaRMKbOcN0EsIQ)
+- [为了让 AI 答对 85%，我们先教会了它怎么说“不知道”](https://mp.weixin.qq.com/s/5t8uoDT1xrs4VgoM1PvORQ)
+- [业务自己会 Vibe Coding 了，公司还要 AI PM 干嘛？](https://mp.weixin.qq.com/s/rBD6p4Be6duAFxIVi_Tyqw)
+- [为什么所有的 AI 办公助手，最终都会沦为老板的监工？](https://mp.weixin.qq.com/s/YGOufpBK8kATFFI1NTwIdg)
 
 ---
 
