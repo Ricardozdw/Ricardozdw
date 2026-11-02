@@ -20,7 +20,7 @@ const ricardozdw = {
   role: "AI 产品经理",
   experience: [
     { company: "阿里巴巴", role: "体验设计师" },
-    { company: "360", role: "体验设计师" },
+    { company: "360", role: "UI 设计师" },
   ],
   building: ["企业知识库 / RAG", "Agent Skills", "AI 内容工作流"],
   approach: ["拆解真实产品", "设计人机协作", "用原型验证想法"],
