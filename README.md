@@ -3,7 +3,7 @@
 **张达玮 · AI 产品经理 · 曾在阿里巴巴、360 担任体验设计师**
 
 <p>
-  <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/pixel-workspace-motion.gif" alt="暖色像素工作室：人物敲键盘、端起咖啡喝一口、放下杯子并转头看向窗外，伴随咖啡热气、灯光呼吸和水面微光的 12 秒循环动画。" width="100%">
+  <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/pixel-workspace-daylight.gif" alt="晴朗白天的像素工作室，以米白、浅蓝和青绿色为主；人物敲键盘、端起咖啡喝一口、放下杯子后继续工作，伴随热气和屏幕光点的 12 秒循环动画。" width="100%">
 </p>
 
 我喜欢从真实的问题出发，把需求、体验与技术连接起来，再用原型和可运行的项目验证想法。

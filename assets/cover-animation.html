@@ -4,14 +4,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>像素工作室 · 人物动作预览</title>
 <style>
-  *{box-sizing:border-box}body{margin:0;background:#211a16;color:#f4d9b8;font:14px system-ui;display:grid;place-items:center;min-height:100vh}
-  main{width:min(1200px,100%)}canvas{display:block;width:100%;height:auto;image-rendering:pixelated}p{padding:0 16px}button{background:#b65e3b;color:#fff4e5;border:0;border-radius:6px;padding:8px 14px;cursor:pointer}
+  *{box-sizing:border-box}body{margin:0;background:#eef5f3;color:#284b53;font:14px system-ui;display:grid;place-items:center;min-height:100vh}
+  main{width:min(1200px,100%)}canvas{display:block;width:100%;height:auto;image-rendering:pixelated}p{padding:0 16px}button{background:#176774;color:#e7ffff;border:0;border-radius:6px;padding:8px 14px;cursor:pointer}
 </style>
-<main><canvas width="1200" height="600" aria-label="人物敲键盘、喝咖啡、看向窗外的像素工作室"></canvas><p><button id="toggle">暂停</button> <span id="action">载入中</span> · 12 秒循环</p></main>
+<main><canvas width="1200" height="600" aria-label="晴朗白天的像素工作室，人物敲键盘、端杯喝咖啡"></canvas><p><button id="toggle">暂停</button> <span id="action">载入中</span> · 12 秒循环</p></main>
 <script>
 const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');
 const W=1200,H=600,S=W/1774,TAU=Math.PI*2;
-const files={base:'pixel-workspace.png',typing:'poses/typing.png',tap:'poses/tap.png',reach:'poses/reach.png',lift:'poses/lift.png',coffee:'poses/coffee.png',window:'poses/window.png'};
+const files={base:'daylight/base.png',typing:'daylight/typing.png',tap:'daylight/tap.png',reach:'daylight/reach.png',lift:'daylight/lift.png',coffee:'daylight/coffee.png'};
 const images={},patches={};let running=true;
 const load=src=>new Promise((resolve,reject)=>{const i=new Image;i.onload=()=>resolve(i);i.onerror=reject;i.src=src});
 function patch(image){
@@ -23,11 +23,10 @@ function patch(image){
 }
 // Discrete poses form a pixel-animation cycle; brief transitions connect reaches.
 function poseAt(t){
-  if(t<3.0||t>=10.0)return Math.floor(t*6)%2?'tap':'typing';
+  if(t<3.0||t>=6.85)return Math.floor(t*6)%2?'tap':'typing';
   if(t<3.50)return 'reach';if(t<4.05)return 'lift';
   if(t<5.85)return 'coffee';if(t<6.30)return 'lift';
-  if(t<6.85)return 'reach';if(t<7.35)return 'typing';
-  if(t<9.65)return 'window';return 'typing';
+  return 'reach';
 }
 function steam(t,x,y){
   for(let strand=0;strand<2;strand++){
@@ -35,7 +34,7 @@ function steam(t,x,y){
       const life=(t*.40+j/13+strand*.34)%1;
       const xx=x+strand*9+Math.sin(life*8+t*.7+strand)*6;
       const yy=y-life*52;
-      ctx.fillStyle=`rgba(255,236,205,${(.52*Math.sin(life*Math.PI)).toFixed(2)})`;
+      ctx.fillStyle=`rgba(190,241,242,${(.52*Math.sin(life*Math.PI)).toFixed(2)})`;
       ctx.fillRect(Math.round(xx/2)*2,Math.round(yy/2)*2,4,5);
     }
   }
@@ -52,18 +51,18 @@ window.renderFrame=function(time){
     }
     ctx.globalAlpha=1;
   }
-  const onDesk=['typing','tap','window'].includes(pose);
+  const onDesk=['typing','tap'].includes(pose);
   if(onDesk)steam(t,451,294);
   else if(pose==='coffee')steam(t,535,211);
   else if(pose==='lift')steam(t,535,229);
-  // The lamp has a broad, slow amber pulse rather than a tiny flashing bulb.
+  // A restrained yellow lamp glow sits within the brighter daylight scene.
   const pulse=Math.round((.5+.5*Math.sin(TAU*t/4))*10)/10;
   const glow=ctx.createRadialGradient(851,252,5,851,252,58);
-  glow.addColorStop(0,`rgba(255,209,119,${.16+.20*pulse})`);glow.addColorStop(.45,`rgba(255,177,65,${.035+.08*pulse})`);glow.addColorStop(1,'rgba(255,177,65,0)');
+  glow.addColorStop(0,`rgba(244,245,181,${.07+.10*pulse})`);glow.addColorStop(.45,`rgba(232,239,139,${.015+.03*pulse})`);glow.addColorStop(1,'rgba(232,239,139,0)');
   ctx.fillStyle=glow;ctx.fillRect(792,193,118,118);
   // Visible packets follow the actual workflow wires on the right monitor.
   const routes=[[[684,220],[684,240],[706,240]],[[720,237],[720,258]],[[706,258],[686,258],[686,250]]];
-  ctx.fillStyle='#ffdaa0';
+  ctx.fillStyle='#a7f9f1';
   routes.forEach((route,index)=>{
     const z=(t*.65+index/3)%1;const lengths=route.slice(1).map((p,i)=>Math.hypot(p[0]-route[i][0],p[1]-route[i][1]));let d=z*lengths.reduce((a,b)=>a+b,0);
     for(let i=0;i<lengths.length;i++){if(d<=lengths[i]){const f=d/lengths[i];ctx.fillRect(Math.round(route[i][0]+(route[i+1][0]-route[i][0])*f)-2,Math.round(route[i][1]+(route[i+1][1]-route[i][1])*f)-2,4,4);break}d-=lengths[i]}
@@ -71,19 +70,19 @@ window.renderFrame=function(time){
   if(pose==='typing'||pose==='tap'){
     // Alternating fingertips make each keyboard tap legible at profile scale.
     ctx.fillStyle=Math.floor(t*6)%2?'#f6bd83':'#d48d58';ctx.fillRect(681,310+Math.floor(t*12)%2,5,3);
-    ctx.fillStyle='#ffe0aa';ctx.fillRect(647,276,3,Math.floor(t*2)%2?0:8);
+    ctx.fillStyle='#b8ffed';ctx.fillRect(647,276,3,Math.floor(t*2)%2?0:8);
   }
-  // Warm dust motes drift across the window; no rapid full-frame flashing.
+  // Cyan motes drift across the window; no rapid full-frame flashing.
   for(let i=0;i<8;i++){
     const life=(t/12+i/8)%1,x=94+i*42+Math.sin(life*TAU+i)*11,y=83+(1-life)*175;
-    ctx.fillStyle=`rgba(255,226,167,${(.25+.25*Math.sin(life*Math.PI)).toFixed(2)})`;ctx.fillRect(Math.round(x/2)*2,Math.round(y/2)*2,3+(i%2),3+(i%2));
+    ctx.fillStyle=`rgba(122,228,238,${(.25+.25*Math.sin(life*Math.PI)).toFixed(2)})`;ctx.fillRect(Math.round(x/2)*2,Math.round(y/2)*2,3+(i%2),3+(i%2));
   }
   for(let i=0;i<7;i++){
     const phase=(t*.4+i*.22)%1;
-    ctx.fillStyle=`rgba(255,219,146,${(.12+.55*Math.sin(phase*Math.PI)).toFixed(2)})`;
+    ctx.fillStyle=`rgba(153,239,235,${(.12+.55*Math.sin(phase*Math.PI)).toFixed(2)})`;
     ctx.fillRect(223+(i%3)*11+Math.round(Math.sin(t+i)*3),264+i*3,10+(i%3)*4,2);
   }
-  document.querySelector('#action').textContent=({typing:'敲键盘',tap:'敲键盘',reach:'端起 / 放下咖啡',lift:'举杯',coffee:'喝一口咖啡',window:'看看窗外'})[pose];
+  document.querySelector('#action').textContent=({typing:'敲键盘',tap:'敲键盘',reach:'端起 / 放下咖啡',lift:'举杯',coffee:'喝一口咖啡'})[pose];
   return pose;
 };
 window.ready=Promise.all(Object.entries(files).map(async([key,src])=>{images[key]=await load(src);if(key!=='base')patches[key]=patch(images[key]);})).then(()=>{window.renderFrame(0);window.animationReady=true;});

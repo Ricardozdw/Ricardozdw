@@ -10,4 +10,4 @@ ffmpeg -hide_banner -loglevel error -y \
     [0:v]split[scene][colors];
     [colors]palettegen=max_colors=256:stats_mode=full[palette];
     [scene][palette]paletteuse=dither=bayer:bayer_scale=3:diff_mode=rectangle[out]
-  " -map '[out]' -loop 0 pixel-workspace-motion.gif
+  " -map '[out]' -loop 0 pixel-workspace-daylight.gif
