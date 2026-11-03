@@ -12,32 +12,6 @@
 
 [个人网站](https://ricardozdw.github.io/?v=430e5c5) · [小红书](https://www.xiaohongshu.com/user/profile/5fc6c032000000000101e057)
 
-## ☕ About Me
-
-```javascript
-const ricardozdw = {
-  name: "张达玮",
-  role: "AI 产品经理",
-  focus: ["企业知识库 / RAG", "AI Agent 与 Skills", "模型评测与质量体系"],
-  howIWork: ["从真实场景定义问题", "设计人机协作流程", "用评测驱动迭代"],
-  shipped: ["知汇台", "小红书成稿工坊", "AI 产品拆解 Skill"],
-  background: "8 年大厂设计（阿里巴巴、360）转 AI 产品",
-  interests: ["摄影 📷", "篮球 🏀"],
-};
-```
-
-## 🧰 常用工具
-
-<p>
-  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
-  <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openaigym&logoColor=white" alt="Codex">
-  <img src="https://img.shields.io/badge/Grok%20Bot-1F1F1F?style=flat-square&logo=x&logoColor=white" alt="Grok Bot">
-  <img src="https://img.shields.io/badge/PI%20Agent-3D3D3D?style=flat-square&logo=pi&logoColor=white" alt="PI Agent">
-  <img src="https://img.shields.io/badge/DeepSeek%20Harness-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek Harness">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
-  <img src="https://img.shields.io/badge/Adobe%20%E5%85%A8%E5%AE%B6%E6%A1%B6-FA0F00?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xNS4xIDJIMjR2MjB6TTguOSAySDB2MjB6TTExLjk1IDkuNEwxNy42IDIyaC0zLjdsLTEuNjktNC40SDguMXoiLz48L3N2Zz4%3D&logoColor=white" alt="Adobe 全家桶">
-</p>
-
 ## ⭐ 精选项目
 
 从产品视角出发、用工程方式落地的产品与工具。
@@ -57,6 +31,18 @@ const ricardozdw = {
 🎨 **[Behance Landing / Showcase](https://github.com/Ricardozdw/behance-landing)**  
 视觉交互实验：可拖拽的鱼眼网格、水波反馈与沉浸式项目画廊。  
 [在线预览](https://ricardozdw.github.io/behance-landing/)
+
+## 🧰 常用工具
+
+<p>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openaigym&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Grok%20Bot-1F1F1F?style=flat-square&logo=x&logoColor=white" alt="Grok Bot">
+  <img src="https://img.shields.io/badge/PI%20Agent-3D3D3D?style=flat-square&logo=pi&logoColor=white" alt="PI Agent">
+  <img src="https://img.shields.io/badge/DeepSeek%20Harness-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek Harness">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
+  <img src="https://img.shields.io/badge/Adobe%20%E5%85%A8%E5%AE%B6%E6%A1%B6-FA0F00?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xNS4xIDJIMjR2MjB6TTguOSAySDB2MjB6TTExLjk1IDkuNEwxNy42IDIyaC0zLjdsLTEuNjktNC40SDguMXoiLz48L3N2Zz4%3D&logoColor=white" alt="Adobe 全家桶">
+</p>
 
 ---
 
