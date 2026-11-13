@@ -16,10 +16,10 @@
 
 从产品视角出发、用工程方式落地的产品与工具。
 
-🎓 **[小满学习搭子](https://github.com/Ricardozdw/xiaoman-study-buddy-demo)**  
+🎓 **[小满学习搭子](https://github.com/Ricardozdw/xiaoman-study-buddy)**  
 面向在职备考人群的 AI 学习助手：把考证目标拆成每天「学、练、考」三件事，中断了能接上。  
 我负责产品调研、PRD、AI 方案设计与上线；模型调用拆为 10 项能力，已完成 470 条离线评测。  
-[在线试用](https://xiaoman-api-341891-6-1317663597.sh.run.tcloudbase.com/study/)（首次打开需等待约 1 分钟）· [可点击 demo](https://ricardozdw.github.io/xiaoman-study-buddy-demo/)
+[在线试用](https://xiaoman-api-341891-6-1317663597.sh.run.tcloudbase.com/study/)（首次打开需等待约 1 分钟）· [可点击 demo](https://ricardozdw.github.io/xiaoman-study-buddy/demo/)
 
 🛒 **[电商素材工坊](https://github.com/Ricardozdw/ecommerce-listing-studio)**  
 面向跨境电商小卖家的商品图加工工具：一张实拍图出齐 Amazon listing 套图，并在上传前检查是否合规、商品有没有被改变。  
