@@ -1,6 +1,6 @@
 # Hi, I'm [Ricardozdw](https://ricardozdw.github.io/) 👋
 
-**张达玮 · AI 产品经理 · 8 年大厂设计转 AI 产品，爱分享、爱记录**
+**张达玮 · AI 产品经理 · 8 年产品经验，近 4 年专注 AI 产品（Agent / AIGC / RAG）**
 
 <p>
   <img src="https://raw.githubusercontent.com/Ricardozdw/Ricardozdw/main/assets/pixel-workspace-daylight-wide.gif" alt="晴朗白天的像素工作室，以米白、浅蓝和青绿色为主；人物敲键盘、端起咖啡喝一口、放下杯子后继续工作，伴随热气和屏幕光点的 12 秒循环动画。" width="100%">
@@ -15,6 +15,18 @@
 ## ⭐ 精选项目
 
 从产品视角出发、用工程方式落地的产品与工具。
+
+🎓 **[小满学习搭子](https://github.com/Ricardozdw/xiaoman-study-buddy-demo)**  
+面向在职备考人群的 AI 学习助手：把考证目标拆成每天「学、练、考」三件事，中断了能接上。  
+我负责产品调研、PRD、AI 方案设计与上线；模型调用拆为 10 项能力，已完成 470 条离线评测。  
+[在线试用](https://xiaoman-api-341891-6-1317663597.sh.run.tcloudbase.com/study/)（首次打开需等待约 1 分钟）· [可点击 demo](https://ricardozdw.github.io/xiaoman-study-buddy-demo/)
+
+🛒 **[电商素材工坊](https://gic-api-341891-6-1317663597.sh.run.tcloudbase.com)**  
+面向跨境电商小卖家的商品图加工工具：一张实拍图出齐 Amazon listing 套图，并在上传前检查是否合规、商品有没有被改变。  
+我独立完成定位、PRD、AI 方案与开发部署；文字由代码叠加，能用规则判定的不调模型，拿不准的交给人复核。  
+[在线演示](https://gic-api-341891-6-1317663597.sh.run.tcloudbase.com)（首次打开需等待约 1 分钟，登录需邀请码）
+
+### 其他项目
 
 🗂️ **[知汇台](https://github.com/Ricardozdw/zhihuitai)**  
 企业知识库中台，串联知识导入、引用式问答、可观测与评测回流。  
